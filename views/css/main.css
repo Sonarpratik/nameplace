@@ -1,0 +1,81 @@
+/*body,
+ table,
+    thead,
+    tr,
+    tbody,
+    th,
+    td {
+        text-align: center;
+    }*/
+    *{
+        color: white;
+    }
+body{
+	text-align: center !important;
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+}
+input{
+	text-align: center;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.center{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+    animation-name:change ;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        background-image: url('r1n.jpg');
+
+   }
+   25%{
+    background-image: url('r2n.jpg');
+
+   }
+   50%{
+    background-image: url('r3n.jpg');
+
+}
+
+75%{
+    background-image: url('r4n.jpg');
+
+    
+    
+}
+100%{
+    background-image: url('r1n.jpg');
+
+    
+} 
+}
+.col-md-offset-4{
+    margin: 0px;
+}
+
+.l-login{
+    font-size: 4.3rem;
+}
+
+.no-hover:hover{
+    color: black!important;
+}
+td:hover{
+    color: black!important;
+
+}
